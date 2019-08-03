@@ -77,6 +77,7 @@ class App extends React.Component {
           }
         })
         .catch(error => {
+          alert("Invalid Private Key")
           console.log(error)
         })
     } catch (error) {
